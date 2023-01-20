@@ -13,7 +13,11 @@ function beepBoop(number) {
 function boopBeep(array) {
   outputArray = [];
   array.forEach(element => {
-    if(element.toString().includes("1")) {
+    if (element.toString().includes("3")) {
+      outputArray.push("Won't you be my neighbor?");
+    } else if (element.toString().includes("2")) {
+      outputArray.push("Boop!");
+    } else if(element.toString().includes("1")) {
       outputArray.push("Beep!");
     } else {
       outputArray.push(element);
