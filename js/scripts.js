@@ -29,3 +29,12 @@ console.log(outputArray);
 
 //User Interface Logic
 
+function handleFormSubmission(event) {
+  event.preventDefault();
+  const beepBoopInput = document.getElementById("numberInput");
+  beepBoop(beepBoopInput.value);
+}
+
+window.addEventListener("load", function() {
+  this.document.querySelector("form#numberForm").addEventListener("submit", handleFormSubmission);
+});
