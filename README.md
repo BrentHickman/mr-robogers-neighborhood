@@ -13,7 +13,7 @@
 
 ## Description
 
-_This program takes an submitted number and counts to it from '0' by one. It then replaces each instance of '1' with 'Beep!, each '2' with 'Boop! and each '3' with 'Won't you be my neighbor?'.
+_This program takes an submitted number and counts to it from '0' by one. It then replaces each instance of '1' with 'Beep!, each '2' with 'Boop! and each '3' with 'Won't you be my neighbor?'._
 
 ## Setup/Installation Requirements
 
