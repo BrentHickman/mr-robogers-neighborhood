@@ -24,7 +24,6 @@ function boopBeep(array) {
     }
     
   });
-console.log(outputArray);
 }
 
 //User Interface Logic
