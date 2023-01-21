@@ -32,9 +32,11 @@ console.log(outputArray);
 function handleFormSubmission(event) {
   event.preventDefault();
   const beepBoopInput = document.getElementById("numberInput");
+  const output = document.querySelector("#output");
   beepBoop(beepBoopInput.value);
+  output.innerText = outputArray.toString('');
 }
 
 window.addEventListener("load", function() {
-  this.document.querySelector("form#numberForm").addEventListener("submit", handleFormSubmission);
+  document.querySelector("form#numberForm").addEventListener("submit", handleFormSubmission);
 });
