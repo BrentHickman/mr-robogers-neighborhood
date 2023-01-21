@@ -25,6 +25,7 @@ br {
 }
 
 #output {
+  text-align: center;
   width: 65%;
   margin-top: 5%;
   margin-left: auto;
