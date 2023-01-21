@@ -1,0 +1,44 @@
+body {
+  width: 75%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(204, 221, 220);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(127, 127, 255);
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: rgb(221, 194, 184);
+  font-weight: bolder;
+  border: solid 5px 
+}
+
+br {
+  color: bisque;
+}
+
+#output {
+  width: 65%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(221, 194, 184);
+  padding: 20px 20px;
+  color: rgb(127, 127, 255);
+  border: solid 5px rgb(127, 127, 255) ;
+}
+
+.btn {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  padding: 3px 3px 3px 3px;
+  background-color: rgb(221, 194, 184);
+
+}

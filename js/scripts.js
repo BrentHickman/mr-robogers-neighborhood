@@ -14,11 +14,11 @@ function boopBeep(array) {
   outputArray = [];
   array.forEach(element => {
     if (element.toString().includes("3")) {
-      outputArray.push("Won't you be my neighbor?");
+      outputArray.push(" Won't you be my neighbor? ");
     } else if (element.toString().includes("2")) {
-      outputArray.push("Boop!");
+      outputArray.push(" Boop! ");
     } else if(element.toString().includes("1")) {
-      outputArray.push("Beep!");
+      outputArray.push(" Beep! ");
     } else {
       outputArray.push(element);
     }
@@ -34,7 +34,7 @@ function handleFormSubmission(event) {
   const beepBoopInput = document.getElementById("numberInput");
   const output = document.querySelector("#output");
   beepBoop(beepBoopInput.value);
-  output.innerText = outputArray.toString('');
+  output.innerText = outputArray.toString();
 }
 
 window.addEventListener("load", function() {
